@@ -1,0 +1,360 @@
+html{
+	font-size: 100px;
+}
+body{
+	background-image: url(../img/background.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #12486B;
+}
+.container{
+	padding: 0px;	
+}
+.row{
+	margin: 0;
+	padding: 0;
+}
+.py_pricing_block_1{
+	max-width: 6.7rem; 
+	min-height: 4.4rem;
+	background: rgba(237,145,34,0.9);
+	margin-left: 0.815rem;
+	margin-top: 0.27rem;
+}
+.py_pricing_block_1_left{
+	margin: 0 auto;
+	/*background: blue;*/
+	min-height: 4.4rem;
+}
+.py_pricing_block_1_left_item{
+	margin-left: 0.475rem;
+	margin-top: 0.58rem; 
+	min-height: 3.2056rem;	
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+}
+.py_pricing_block_1_left_item_number{
+	font:bold 1.5rem/2.0rem 'Segoe UI';
+	color: white;
+	text-align: center;
+	position: relative;
+}
+.py_pricing_block_1_left_item_dollar{
+	font: bold 0.8rem/1.06rem 'Segoe UI';
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.py_pricing_block_1_left_item_text{
+	font:bold 0.3rem/0.4rem 'Segoe UI';
+	color: white;
+	text-align: center;
+}
+.py_pricing_block_1_right{
+	margin: 0 auto;
+/*	background: red;*/
+	min-height: 4.4rem;
+}
+.py_pricing_block_1_right_btn{
+	background: white;
+	max-width: 2.5rem;
+	min-height: 0.9rem;
+	font: bold 0.36rem/0.9rem 'Segoe UI';
+	color:#ED9122;
+	text-align: center;	
+	margin: 1.75rem auto;
+	border: 1px solid #ED9122;
+	border-radius: 10px;
+	box-shadow: 0px 6px 10px #5A3000;
+}
+.py_pricing_block_2{
+	max-width: 8.0rem;
+	min-height: 4.4rem;
+	background: rgba(255,255,255,0.9);
+	margin-left: 2.79rem;
+}
+.py_pricing_block_2_title{
+	font: bold 0.42rem/0.56rem 'Segoe UI';
+	color: #ED9122;
+	text-align: center;
+	margin-top: 0.27rem;
+}
+.py_pricing_block_2_input{
+/*	background: pink;*/
+	width: 100%;
+	text-align: center;	
+	margin-top: 0.31rem;
+}
+.py_pricing_block_2_input_label{
+	font:bold 0.24rem/0.32rem 'Segoe UI';
+	color:#707070;
+	margin-left: 0.41rem;
+}
+.py_pricing_block_2_input_area{
+	max-width: 1.21rem;
+	max-height: 0.44rem;
+	margin-left: 0.25rem;
+	font:bold 0.24rem/0.24rem 'Segoe UI';
+	color:#707070;
+}
+.py_pricing_block_2_input_btn{
+	width: 1.75rem;
+	max-height: 0.44rem;
+	font: bold 0.24rem/0.44rem 'Segoe UI';
+	color:white;
+	background: #FBC11D;
+	text-align: center;
+	border-radius: 6px;
+	margin-left: 0.38rem;
+}
+.py_pricing_block_2_input_btn:hover{
+	box-shadow: 0px 3px 6px #000000;
+	cursor:pointer;
+}
+.py_pricing_block_2_calculate{
+	margin-top: 0.26rem; 
+	min-height: 2.0rem;
+	overflow: hidden;
+	margin-bottom: -0.5rem;	
+}
+/*#our{
+	display: none;
+}*/
+.py_pricing_block_2_calculate_left{
+	/*background: red;*/
+	text-align: center;
+	min-height: 1.6rem;	
+}
+.py_pricing_block_2_calculate_right{
+	/*background: pink;*/
+	text-align: center;
+	min-height: 1.6rem;	
+}
+.py_pricing_block_2_calculate_text{
+	font:bold 0.24rem/0.24rem 'Segoe UI';
+	color:#707070;
+}
+.py_pricing_block_2_calculate_img{
+	max-width: 0.24rem;
+	line-height: 0.24rem;
+}
+.py_pricing_block_2_calculate_number{
+	font: bold 0.48rem/0.48rem 'Segoe UI';
+	color:#8E8E8E;
+	margin-top: 0.38rem;
+}
+.py_pricing_block_2_calculate_left_number{
+	visibility: hidden;
+}
+.py_pricing_block_2_calculate_right_number{
+	visibility: hidden;
+}
+.py_pricing_block_2_calculate_mth{
+	font: bold 0.15rem/0.4rem 'Segoe UI';
+	color: #5C5C5C;
+	position: relative;
+	left:0.22rem;
+	visibility: hidden;
+}
+.py_pricing_block_2_rangebar{
+/*	background: green;*/
+	height: 0.57rem;
+	width: 100%;
+	text-align: center;	
+	margin-top: -0.4rem;
+	position: relative;
+	overflow: hidden;
+}
+input[type=range] {
+ 	-webkit-appearance: none;
+  	min-width: 2.6rem;		
+}
+input[type=range]:focus {
+  	outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+	height: 0.1rem;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+	margin-top: -2rem;	
+}
+input[type=range]::-webkit-slider-thumb {
+  	-webkit-appearance: none;
+  	width: 0.3rem;
+  	height: 0.3rem; 
+  	background-color: #ECA249;
+  	border-radius: 50%;
+  	margin-top:-0.08rem;
+  	border: solid 4px #FFFFFF;
+  	box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+#min{
+	position: relative;
+	top:-2.3rem;
+	left: -0.92rem;
+	font:normal 0.2rem 'Segoe UI';
+	color:#8E8E8E;
+}
+#max{
+	position: relative;
+	top:-2.3rem;
+	left: 0.97rem;
+	font:normal 0.2rem/0.2rem 'Segoe UI';
+	color:#8E8E8E;
+}
+#pop{
+/*	background: red;*/
+	position:relative;
+	top:-1.425rem;	
+	left: -1.15rem;	
+	z-index: 5;
+	font:bold 0.2rem/0.2rem 'Segoe UI';
+	color:white;
+	pointer-events:none;
+}
+.py_pricing_block_2_info{
+	font:bold 0.15rem/0.15rem 'Segoe UI';
+	color:#ED9122;
+	margin-left: 0.41rem;
+}
+.py_pricing_block_3{
+	max-width: 6.7rem;
+	min-height: 2.2rem;
+	background: rgba(237,145,34,0.9);
+	margin-left: 0.815rem;
+}
+.py_pricing_block_3_title{
+	font: bold 0.22rem/0.32rem 'Segoe UI';
+	color: white;
+}
+.py_pricing_block_3_text{
+	font: normal 0.22rem/0.32rem 'Segoe UI';
+	color: white;
+	margin-top: 0.47rem;
+	margin-left: 0.14rem;
+}
+.yp_pricing_shell{
+	position:fixed;
+	z-index: 888;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.6;	
+	display: none;
+}	
+
+.yp_pricing_logo_gif{
+	position: fixed;
+	left: 45%;
+	top: 40%;
+	z-index: 889;
+	border-radius: 50%;
+	width: 10%;
+	opacity: 0.9;
+	display: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+	.py_pricing_block_1{
+		margin-left:0;
+	}
+	.py_pricing_block_1_left_item{
+		margin: 0.58rem 0.475rem;
+
+	}	
+	.py_pricing_block_2{	
+		margin-left: 2.9rem; 
+		max-width: 6.7rem;
+	}
+	.py_pricing_block_2_input_btn{
+		width: 1.5rem;
+	}
+	.py_pricing_block_3{
+		margin-left:0;
+	}
+
+}
+@media screen and (max-width: 992px){
+	.py_pricing_block_1{
+		margin: 0 auto;
+	}
+	.py_pricing_block_1_right{
+		min-height: 0rem;
+		max-height: 2.2rem;	
+	}
+	
+	.py_pricing_block_2{	
+		margin: 0 auto;
+		max-width: 6.7rem;
+	}
+	.py_pricing_block_3{
+		margin: 0 auto;
+	}
+	.py_pricing_block_2_input_label{
+		margin-left: 0;
+		margin: 0 auto;
+	}
+	.py_pricing_block_2_input_area{
+		margin-left: 0;
+		margin:0 auto;
+	}
+	.py_pricing_block_2_input_btn{
+		margin-left: 0;
+		margin: 0 auto;
+	}
+
+}
+@media screen and (max-width: 768px){
+	.py_pricing_block_1_right_btn{
+		margin: 0 auto;
+		margin-bottom: 0.7rem;
+	}
+	.py_pricing_block_3_text{
+		margin-top: 0.235rem;
+		margin-bottom: 0.235rem;
+	}
+	.py_pricing_block_2_calculate_text{
+		font:bold 0.18rem/0.24rem 'Segoe UI';
+	}
+	.py_pricing_block_2_calculate{
+		margin-top: 0.2rem;
+	}
+	.py_pricing_block_2_info{
+		margin-left: 0;
+		text-align: center;	
+	}
+	.py_pricing_block_2_input{
+	/*	background: pink;*/
+		margin-top: 0rem;
+	}
+	.py_pricing_block_2_title{
+		margin-top: 0.2rem;
+		font: bold 0.3rem/0.3rem 'Segoe UI';
+	}
+	.py_pricing_block_2{	
+		min-height: 6rem;	
+	}
+	.py_pricing_block_2_calculate_mth{
+		font: bold 0.12rem/0.4rem 'Segoe UI';
+		left:0.15rem;
+	}
+}
+@media screen and (max-width: 320px){
+	.py_pricing_block_2_calculate_mth{
+		font: bold 0.10rem/0.4rem 'Segoe UI';
+		left:0.13rem;
+	}
+	.py_pricing_block_2_calculate_number{
+		font: bold 0.40rem/0.45rem 'Segoe UI';
+		color:#8E8E8E;
+		margin-top: 0.38rem;
+	}
+}
